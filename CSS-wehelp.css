@@ -1,0 +1,60 @@
+.profile{
+    display:flex; /*項目水平排列*/
+    padding: 3px;
+}
+.left{
+    flex:none;
+    width:200px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    flex:auto;
+    text-align:end;
+}
+.application{    
+    background-image: url(background/350.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+}
+.title{
+    font-size:70px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+@media (max-width:1250px){
+    .title{
+        font-size:50px;
+    }
+}
+@media (max-width:500px){
+    .title{
+        font-size:30px;
+    }
+}    
+.back{
+    background-image: url(background/content.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.question{
+    flex:none;
+    width: 90%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:8px;
+    border-bottom:2px black solid;
+    padding:7px;
+}
